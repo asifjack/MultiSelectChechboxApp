@@ -1,0 +1,38 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+    <table id="tblFruits" class="table">
+        <thead>
+
+            <tr>
+                <th></th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <input id="chkMango" type="checkbox" value="1" class="multiSelect" />
+                    <input type="hidden" class="empName" value="asif" />
+                    <input type="hidden" class="id" value="1" />
+                </td>
+                <td>asif@yopmail.com</td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="" type="checkbox" value="2" class="multiSelect" />
+                    <input type="hidden" class="empName" value="Aman" />
+                    <input type="hidden" class="id" value="2" />
+                </td>
+                <td>Aman@yopmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+    <br />
+    <input type="button" id="btnGet" value="Create" class="btn btn-primary" />
+</div>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="~/Custom/Employees.js"></script>
